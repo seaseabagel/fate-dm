@@ -1,10 +1,10 @@
 <template>
-  <Transition name="fade" v-if="!renderLB">
+  <div v-if="!renderLB">
     <div v-if="!render">
       <Transition>
         <InputText v-if="showUserName()" v-model="userName" placeholder="Enter your name" @input="printName()" class="input" />
       </Transition>
-      <div class="username" v-if="!showUserName()">
+      <div class="username" v-if="!showUserName()" @click="renderLB = !renderLB">
         <p>Welcome {{getUserName()}}</p>
       </div>
       <div class="title">
@@ -31,16 +31,16 @@
                   <img v-for="item in item.data" :src="item['icon']" v-bind:key="item">
                 </div>
               </div>
-              <Button :label="item.button" :disabled="item.completed" @click="item.visible = true" icon="pi pi-search" />
+              <Button style="width: 100%;" :label="item.button" :disabled="item.completed" @click="item.visible = true" icon="pi pi-search" />
             </div>
           </div>
           <div v-else></div>
           <Dialog v-model:visible="item.visible" modal :showHeader="false">
-            <div v-if="item.id == 0 || item.id == 3 || item.id == 5">
+            <div class="dialogue-window" v-if="item.id == 0 || item.id == 3 || item.id == 5">
               <div class="db-header">
                 <span class="p-input-icon-left flex">
                   <i class="pi pi-search" />
-                  <InputText v-model="filters.battleName.value" placeholder="Search" style="width: 12rem"/>
+                  <InputText v-model="filters.battleName.value" placeholder="Search" style="width: 12rem" autofocus />
                 </span>
                 <SelectButton class="p-selectbutton p-buttonset p-component" v-model="filters.rarity.value" :options="options" @click="printFilter()" />
               </div>
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div v-else-if="item.id == 1 || item.id == 4">
-              <img v-for="item in dialogueData" @click="checkAnswers(item, 3)" :src="item" v-bind:key="item">
+              <img style="margin: 5px;" v-for="item in dialogueData" @click="checkAnswers(item, 3)" :src="item" v-bind:key="item">
             </div>
             <div v-else>
               <span class="command-card" v-for="item in options" v-bind:key="item" style="height: 120px;">
@@ -86,22 +86,23 @@
       </div>
       <h1 class="score">{{ getScore() }}</h1>
     </div>
-  </Transition>
-  <Transition v-else>
-  <div @click="render2()">
-    <div class="title">
-      <div class="text" @click="render = !render">Try again</div>
-    </div>
-    <DataTable :value="leaderboards" :rows="10" paginator tableStyle="min-width: 50rem">
-      <Column
-        v-for="col of LBcolumns"
-        :field="col.field"
-        :key="col.field"
-        :header="col.header"
-      />
-    </DataTable>
   </div>
-  </Transition>
+  <div v-else>
+    <div v-if="!renderLogs">
+      <div class="title">
+        <div class="text" @click="render2()">Try again</div>
+      </div>
+      <DataTable :value="leaderboards" :rows="10" paginator tableStyle="min-width: 50rem">
+        <Column v-for="col of LBcolumns" :field="col.field" :key="col.field" :header="col.header" />
+      </DataTable>
+      <div class="logs-title" @click="renderLogs = !renderLogs">
+        <p>See logs</p>
+      </div>
+    </div>
+    <div v-else class="logs" @click="renderLogs = !renderLogs">
+      <p>logs</p>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -140,6 +141,7 @@ export default defineComponent({
   },
   data() {
     return {
+      renderLogs: false,
       show: true,
       temp: [] as any,
       fail: false,
@@ -494,6 +496,39 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.p-dialog .p-dialog-content {
+  background: #1e1e1e;
+  color: #495057;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+.dialogue-window {
+  background: #1e1e1e;
+}
+.p-fluid .p-buttonset {
+  display: flex;
+}
+.p-fluid .p-buttonset .p-button {
+  flex: 1;
+}
+.logs {
+  color: white;
+}
+.p-paginator {
+  background: #1e1e1e;
+  color: rgba(255, 255, 255, 0.6);
+  border: solid #383838;
+  border-width: 1px;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  visibility: hidden;
+}
+.logs-title{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  color: #e1e1e1;
+  user-select: none;
+}
 .input{
   position: absolute;
   top: 20%;
@@ -518,6 +553,7 @@ export default defineComponent({
 }
 .p-dialog {
   width: 650px;
+  background: #1e1e1e;
 }
 @media only screen and (max-width: 768px) {
   .p-dialog {
@@ -525,13 +561,12 @@ export default defineComponent({
   }
 }
 .p-dialog-content {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 .p-disabled, .p-component:disabled {
   opacity: 1;
 }
 .p-button, .p-button:enabled:hover {
-  width: calc(100%);
   background: #ffffff;
   border: 1px solid #ced4da;
   color: #495057;

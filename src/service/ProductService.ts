@@ -46,49 +46,4 @@ export default class ProductService {
             })
     }
 
-    static async deleteUser(id: string) {
-        return await axios.delete('https://parseapi.back4app.com/classes/servants/' + id, {
-            headers: {
-                'X-Parse-Application-Id': app_id,
-                'X-Parse-REST-API-Key': api_key,
-                'Content-Type': 'application/json'
-            }
-        })
-    }
-
-    static async getRecentShips() {
-        return await axios.get('https://parseapi.back4app.com/classes/newShips',
-            {
-                params: {
-                    'limit': '999'
-                },
-                headers: {
-                    'X-Parse-Application-Id': app_id,
-                    'X-Parse-REST-API-Key': api_key,
-                    'Content-Type': 'application/json'
-                }
-            }).then(d => d.data.results)
-    }
-
-    static async createNew(user: any) {
-        return await axios.post('https://parseapi.back4app.com/classes/newShips', user,
-            {
-                headers: {
-                    'X-Parse-Application-Id': app_id,
-                    'X-Parse-REST-API-Key': api_key,
-                    'Content-Type': 'application/json'
-                }
-            })
-    }
-
-    static async deleteNew(id: string) {
-        return await axios.delete('https://parseapi.back4app.com/classes/newShips/' + id, {
-            headers: {
-                'X-Parse-Application-Id': app_id,
-                'X-Parse-REST-API-Key': api_key,
-                'Content-Type': 'application/json'
-            }
-        })
-    }
-
 }

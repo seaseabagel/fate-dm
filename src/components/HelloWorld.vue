@@ -4,6 +4,9 @@
       <Transition>
         <InputText v-if="showUserName()" v-model="userName" placeholder="Enter your name" @input="printName()" class="input" />
       </Transition>
+      <div class="username" v-if="!showUserName()">
+        <p>Welcome {{getUserName()}}</p>
+      </div>
       <div class="title">
         <div class="text" @click="showUserName() ? '' : start()">Start</div>
       </div>
@@ -89,7 +92,7 @@
     <div class="title">
       <div class="text" @click="render = !render">Try again</div>
     </div>
-    <DataTable class="datatable-leaderboards" :value="leaderboards" :rows="10" paginator tableStyle="min-width: 50rem">
+    <DataTable :value="leaderboards" :rows="10" paginator tableStyle="min-width: 50rem">
       <Column
         v-for="col of LBcolumns"
         :field="col.field"
@@ -186,6 +189,9 @@ export default defineComponent({
     this.populateCards()
   },
   methods: {
+    getUserName(){
+      return localStorage.getItem('userName')
+    },
     showUserName(){
       return localStorage.getItem('userName') == null ? true : false
     },
@@ -444,22 +450,15 @@ export default defineComponent({
             Score:this.score,
             Combo:this.highestCombo, })
           }
-          //this.product.maxLevelApplicable = this.product.maxLevelApplicable ? this.product.maxLevelApplicable : null;
-          //this.userName = this.userName == '' ? 'wtf' : localStorage.getItem('userName')
-          
-          // ProductService.createUser({
-          // Name:this.userName,
-          // Score:this.score,
-          // Combo:this.highestCombo, })
-          
           //.then((response) => {console.log(response);}, (error) => {console.log(error);});
 
           this.reset() 
-        //get scores here and see whether this score is bigger than high score in the table
-        //then decide to update it, not or create a new one
         }
         else{
-          this.reset() 
+          this.reset()
+          this.score = 0
+          this.highestCombo = 0
+          this.combo = 0
         }
       }
       this.clearFilters()
@@ -500,6 +499,13 @@ export default defineComponent({
   top: 20%;
   left: calc(50% - 7rem);
   width: 14rem;
+}
+.username{
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  color: #e1e1e1;
+  user-select: none;
 }
 .disabled {
   opacity: 0.6;
@@ -578,12 +584,6 @@ export default defineComponent({
   margin-top: 10px;
   height: 50px;
 }
-.datatable-game{
-  background: white;
-}
-.datatable-leaderboards{
-  background: var(--bg-color);
-}
 .p-datatable .p-datatable-thead > tr > th {
   text-align: left;
   padding: 1rem 1rem;
@@ -591,6 +591,7 @@ export default defineComponent({
   border-width: 0 0 1px 0;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.87);
+  background: var(--bg-color);
   transition: box-shadow 0.2s;
 }
 .p-datatable .p-datatable-tbody > tr {
@@ -603,6 +604,7 @@ export default defineComponent({
   border: 1px solid #383838;
   border-width: 0 0 1px 0;
   padding: 1rem 1rem;
+  background: var(--bg-color);
 }
 .score {
   position: relative;
@@ -680,7 +682,6 @@ export default defineComponent({
   flex-wrap: wrap;
   gap: 8px;
   max-width: 922px;
-  width: calc(100%-20px);
 }
 .card {
   background-color: rgba(255, 255, 255, 0.02);

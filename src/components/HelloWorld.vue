@@ -100,7 +100,7 @@
       </div>
     </div>
     <div v-else class="logs" @click="renderLogs = !renderLogs">
-      <p>logs</p>
+      <p v-for="col of logs" :key="col">{{col.date}} {{col.data}}</p>
     </div>
   </div>
 </template>
@@ -141,6 +141,14 @@ export default defineComponent({
   },
   data() {
     return {
+      dateOptions: {
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric'
+      },
+      logs: [] as any,
       renderLogs: false,
       show: true,
       temp: [] as any,
@@ -185,13 +193,18 @@ export default defineComponent({
     ProductService.getAPI().then((response) => {
       this.leaderboards = response.data.results;
     })
+    this.logs.push({"date": this.formatDate2(new Date()), "data": "Request leaderboard data."})
     ProductService.getProducts().then(data => {
       this.data = data
     });
     this.populateCards()
   },
   methods: {
+    formatDate2(d: any) {
+      return d.toLocaleString('en-GB', this.dateOptions).replace(',', '')
+    },
     getUserName(){
+      this.logs.push({"date": this.formatDate2(new Date()), "data": "Extract username."})
       return localStorage.getItem('userName')
     },
     showUserName(){
@@ -210,6 +223,7 @@ export default defineComponent({
         localStorage.setItem('userName', this.userName);
         console.log(localStorage.getItem('userName'));
         this.show = false;
+        this.logs.push({"date": this.formatDate2(new Date()), "data": "Get and remember username " + this.userName + "."})
       }
     },
     populateCards(){
@@ -426,6 +440,7 @@ export default defineComponent({
       return this.score == 0 ? '' : this.score + ' x ' + this.combo; 
     },
     increment(id: number) {
+      if(this.combo > 1024){ this.combo = 1024 }
       let exists = false
       this.highestCombo = this.combo > this.highestCombo ? this.combo : this.highestCombo
       this.fail = true
@@ -434,9 +449,6 @@ export default defineComponent({
       this.cards[id].completed = true
       if(this.count > 6){ 
         if(this.fail && this.score > 0){
-          ProductService.getAPI().then((response) => {
-            this.leaderboards = response.data.results;
-          })
           this.leaderboards.forEach((element: any) => {
             if(element['Name'] == this.userName && element['Score'] > this.score){
               exists = true
@@ -452,6 +464,9 @@ export default defineComponent({
             Score:this.score,
             Combo:this.highestCombo, })
           }
+          ProductService.getAPI().then((response) => {
+            this.leaderboards = response.data.results;
+          })
           //.then((response) => {console.log(response);}, (error) => {console.log(error);});
 
           this.reset() 
@@ -512,6 +527,7 @@ export default defineComponent({
 }
 .logs {
   color: white;
+  user-select: none;
 }
 .p-paginator {
   background: #1e1e1e;

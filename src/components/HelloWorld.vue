@@ -100,7 +100,7 @@
       </div>
     </div>
     <div v-else class="logs" @click="renderLogs = !renderLogs">
-      <p v-for="col of logs" :key="col">{{col.date}} {{col.data}}</p>
+      <p v-for="col of logs" :key="col">{{col.date}} {{col.game}} {{col.desc}} {{col.icons}} {{col.data}} {{col.answer}} {{col.combo}}</p>
     </div>
   </div>
 </template>
@@ -134,6 +134,11 @@ interface FilterInt {
   value: string | null | number;
   matchMode: string;
 }
+interface skillIconNumbersInterface {
+  id: string;
+  icon: string;
+  count: number;
+}
 export default defineComponent({
   name: "HelloWorld",
   props: {
@@ -141,6 +146,9 @@ export default defineComponent({
   },
   data() {
     return {
+      sixthGameCount: 1,
+      skillIconStorage: [] as any,
+      skillIconNumbers: [] as skillIconNumbersInterface[],
       dateOptions: {
         month: 'short',
         day: 'numeric',
@@ -148,6 +156,7 @@ export default defineComponent({
         minute: 'numeric',
         second: 'numeric'
       },
+      games: 0,
       logs: [] as any,
       renderLogs: false,
       show: true,
@@ -200,11 +209,59 @@ export default defineComponent({
     this.populateCards()
   },
   methods: {
+    iconStorageFiller(){
+      for(let id = 0; id < this.data.length; id++){
+        for(let i = 0; i < 3; i++){
+          if(this.skillIconStorage.indexOf(this.data[id]['skills'][i]['icon']) == -1){
+            this.skillIconStorage.push(this.data[id]['skills'][i]['icon'])
+          }
+        }
+      }
+      this.skillIconStorage.sort()
+      this.iconNumbersCreate()
+    },
+    iconNumbersCreate(){
+      for(let id = 0; id < this.skillIconStorage.length; id++){
+        this.skillIconNumbers.push({id: this.skillIconStorage[id].match(/\d+/g).join(''), icon: this.skillIconStorage[id], count: 0})
+      }
+      this.iconNumbersFiller()
+    },
+    iconNumbersFiller(){
+      for(let id = 0; id < this.skillIconStorage.length; id++){
+        for(let j = 0; j < this.data.length; j++){
+          for(let i = 0; i < 3; i++){
+            if(this.skillIconStorage[id] == this.data[j]['skills'][i]['icon']){
+              this.skillIconNumbers[id]['count'] += 1
+            }
+          }
+        }
+      }
+    },
+    countIcons() {
+      const cloneData: Array<any> = []
+      for(let id = 0; id < this.data.length; id++){
+        cloneData.push({
+         'id': this.data[id]['id'],
+         'battleName': this.data[id]['battleName'],
+         'className': this.data[id]['className'],
+         'rarity': this.data[id]['rarity'],
+         'cards': [this.data[id]['cards'][0],this.data[id]['cards'][1],this.data[id]['cards'][2],this.data[id]['cards'][3],this.data[id]['cards'][4]],
+         'skills': []})
+        const clone: Array<any> = this.data[id]['skills']
+        for(let i = 1; i < 4; i++){
+          var result = clone.filter(obj => {
+            return obj.num == i 
+          })
+          cloneData[id]['skills'].push(result[result.length - 1])
+        }
+      }
+      console.log(cloneData)
+    },
     formatDate2(d: any) {
       return d.toLocaleString('en-GB', this.dateOptions).replace(',', '')
     },
     getUserName(){
-      this.logs.push({"date": this.formatDate2(new Date()), "data": "Extract username."})
+      this.logs.push({"date": this.formatDate2(new Date()), "data": "Recover username."})
       return localStorage.getItem('userName')
     },
     showUserName(){
@@ -221,7 +278,6 @@ export default defineComponent({
       this.userName = this.userName.toUpperCase();
       if(this.userName.length == 3){
         localStorage.setItem('userName', this.userName);
-        console.log(localStorage.getItem('userName'));
         this.show = false;
         this.logs.push({"date": this.formatDate2(new Date()), "data": "Get and remember username " + this.userName + "."})
       }
@@ -233,7 +289,7 @@ export default defineComponent({
         {id:2, class:"card", title:"Normal", subtitle:"Remember the cards of this servant", button: "Cards", error:"No Skills", count:2, completed:false, visible:false, render:true, hover:false, data:[], answer:[]},
         {id:3, class:"card", title:"Hard", subtitle:"Guess the servant by this skill set", button: "Select a Servant", error:"No Servants", count:3, completed:false, visible:false, render:true, hover:false, data:[], answer:[]},
         {id:4, class:"card", title:"Hard", subtitle:"Remember the skills of this servant", button: "Skills", error:"No Servants", count:4, completed:false, visible:false, render:true, hover:false, data:[], answer:[]},
-        {id:5, class:"card", title:"Very Hard", subtitle:"Choose as many servants with this skill as possible", button: "Select Servants", error:"No Servants", count:5, completed:false, visible:false, render:true, hover:false, data:[], answer:[]}, ] as Card[]
+        {id:5, class:"card", title:"Very Hard", subtitle:`Choose as many (${this.sixthGameCount}) servants with this skill as possible`, button: "Select Servants", error:"No Servants", count:5, completed:false, visible:false, render:true, hover:false, data:[], answer:[]}, ] as Card[]
     },
     start(){
       this.render = !this.render
@@ -243,9 +299,34 @@ export default defineComponent({
     getPortrait(id: any){
       return this.data[id]['id']
     },
+    printSel(id: any){
+      let index: any = this.cards[this.count - 1]['answer']
+      if(this.selectedServant['id'] == this.data[index]['id']){
+        this.score += 500 * this.combo
+        this.combo = this.combo * 2
+      }
+      else{
+        this.fail = true
+        this.combo = 1
+      }
+      //logs card 1, 4
+      this.logs.push({
+        "date": this.formatDate2(new Date()),
+        "game": "Generated game number " + this.count,
+        "desc": `showing three skill icons`,
+        "icons": ``,
+        "data": `of servant ${this.data[index]['id']} ${this.data[index]['battleName']}.`,
+        "answer": `Received selected servant ${this.selectedServant['id']} ${this.selectedServant['battleName']}.`,
+        "combo": !this.fail ? `Combo x${this.combo}, score ${this.score}, copied value of combo into the highest combo (${this.highestCombo}).` : `Combo back to ${this.combo}, score ${this.score}, highest combo stays at ${this.highestCombo}. Game failed.`
+      })
+      this.cards[id]['visible'] = false
+      this.increment(id)
+    },
     printAns(){
-      if(this.selectedServant.length == 5){
+      var gameLength: number = this.sixthGameCount < 5 ? this.sixthGameCount : 5
+      if(this.selectedServant.length == gameLength){
         this.cards[5]['visible'] = false
+        this.logs.push({"game": "Generated game number " + (this.count + 6 * this.games), "date": this.formatDate2(new Date()), "data": this.temp, "answer": this.selectedServant})
         this.increment(this.count - 1)
       }
       if(this.temp.indexOf(this.selectedServant[this.selectedServant.length - 1]['id']) > -1){
@@ -256,6 +337,8 @@ export default defineComponent({
         this.fail = true
         this.combo = 1
         this.cards[5]['visible'] = false
+        //logs card 6
+        this.logs.push({"game": "Generated game number " + (this.count + 6 * this.games), "date": this.formatDate2(new Date()), "data": this.temp, "answer": this.selectedServant})
         this.increment(this.count - 1)
       }
     },
@@ -277,8 +360,10 @@ export default defineComponent({
         this.cards[1]['visible'] = false
         this.cards[2]['visible'] = false
         this.cards[4]['visible'] = false
+        //logs card 2, 3, 5
+        this.logs.push({"game": "Generated game number " + (this.count + 6 * this.games), "date": this.formatDate2(new Date()), "data": this.temp.sort(), "answer": this.selectedProduct.sort()})
         this.increment(this.count - 1)
-      }
+        }
     },
     handleGames(cnt: number){
       let index: any = null
@@ -290,7 +375,7 @@ export default defineComponent({
           this.cards[0].answer = obj.id
           this.cards[0].data = obj.arr
           this.easyData.push(this.data[obj.id])
-          this.makeEasyData()
+          this.makeEasyData() //generating 1 + 9 random servants for the table
           break
         
         case 2:
@@ -340,17 +425,21 @@ export default defineComponent({
           this.dialogueData = this.shuffle(this.dialogueData)
           break
 
-        case 6: //we don't check icons for rank ups here
+        case 6:
+          this.iconStorageFiller()
           obj = this.getRandomSkills(0)
           this.cards[5].answer = obj.id
           this.cards[5].data = obj.arr
-          //console.log(obj.arr[0]['icon'])
+          var result: skillIconNumbersInterface[] = this.skillIconNumbers.filter(skillObj => { 
+            return skillObj['icon'] == obj.arr[0]['icon'] //return an array of one with count from this.skillIconNumbers
+          })
+          this.sixthGameCount = result[0]['count']
           this.data.forEach((element: any) => {
             element['skills'].forEach((elem: any) => {
               if(elem['icon'] == obj.arr[0]['icon']){
                 this.temp.push(element['id'])
               }
-          });
+            });
           });
           break
       }
@@ -367,20 +456,6 @@ export default defineComponent({
     },
     getName(id: any){
       return this.data[id]['battleName']
-    },
-    printSel(id: any){
-      let index: any = this.cards[this.count -1]['answer']
-      //console.log(this.selectedServant['id'] == this.data[index]['id'] ? true : false)
-      if(this.selectedServant['id'] == this.data[index]['id']){
-        this.score += 500 * this.combo
-        this.combo = this.combo * 2
-      }
-      else{
-        this.fail = true
-        this.combo = 1
-      }
-      this.cards[id]['visible'] = false
-      this.increment(id)
     },
     getRandomIcons(qnt: number){
       //let arr: any = []
@@ -402,12 +477,12 @@ export default defineComponent({
       //let len: number = Object.keys(this.data[id]['skills']).length
       //let prio = this.data[id]['skills'][len - 1]
       let skillsHighPriority: any[] = []
-      const clone: Array<any> = this.data[id]['skills']
+      const clone: Array<any> = this.data[id]['skills'] //get random servant's skills
       for(let i = 1; i < 4; i++){
         var result = clone.filter(obj => {
-          return obj.num == i
+          return obj.num == i 
         })
-        skillsHighPriority.push(result[result.length - 1])
+        skillsHighPriority.push(result[result.length - 1]) //get only the very last skill of every num
       }
       return {'id': id, 'arr': qt > 1 ? skillsHighPriority : [skillsHighPriority[this.getRandomServant(1)]]}
     },
@@ -476,6 +551,7 @@ export default defineComponent({
           this.score = 0
           this.highestCombo = 0
           this.combo = 0
+          this.games++
         }
       }
       this.clearFilters()
@@ -490,6 +566,7 @@ export default defineComponent({
       this.count = 1
       this.handleGames(this.count)
       this.renderLB = !this.renderLB;
+      this.sixthGameCount = 1
     },
     clearFilters() {
       this.filters = {

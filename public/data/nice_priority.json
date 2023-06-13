@@ -20,16 +20,6 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
-        },
-        {
-          "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
@@ -60,18 +50,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -90,7 +75,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
         },
         {
@@ -102,11 +87,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
         }
       ]
     },
@@ -125,8 +105,8 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 2,
@@ -137,11 +117,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -160,23 +135,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
           "num": 3,
@@ -205,18 +170,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -235,8 +195,8 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
+          "priority": 3,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 2,
@@ -245,18 +205,8 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 1,
-          "priority": 3,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -280,18 +230,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00308.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00308.png"
         }
       ]
     },
@@ -320,11 +265,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
         }
@@ -345,7 +285,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         },
         {
@@ -357,11 +297,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         }
       ]
     },
@@ -390,11 +325,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         }
@@ -420,18 +350,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         }
       ]
     },
@@ -450,7 +375,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00323.png"
         },
         {
@@ -462,11 +387,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00323.png"
         }
       ]
     },
@@ -485,33 +405,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png"
         },
         {
           "num": 2,
           "priority": 3,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
+        },
+        {
+          "num": 3,
+          "priority": 1,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -650,27 +555,6 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png",
-          "aiIds": {
-            "svt": [
-              90251110
-            ],
-            "field": []
-          }
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         },
@@ -678,6 +562,11 @@
           "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
+        },
+        {
+          "num": 3,
+          "priority": 1,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         }
       ]
     },
@@ -706,11 +595,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00610.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00610.png"
         }
@@ -731,28 +615,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
         }
       ]
     },
@@ -771,7 +645,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
         {
@@ -783,11 +657,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         }
       ]
     },
@@ -841,18 +710,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00503.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         }
       ]
     },
@@ -876,18 +740,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         }
       ]
     },
@@ -1066,11 +925,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
@@ -1121,8 +975,8 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 2,
@@ -1133,11 +987,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -1581,23 +1430,8 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
-        },
-        {
-          "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 3,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png"
         },
         {
           "num": 3,
@@ -1621,23 +1455,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
           "num": 3,
@@ -1691,7 +1515,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         },
         {
@@ -1703,11 +1527,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         }
       ]
     },
@@ -1756,8 +1575,8 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         },
         {
           "num": 2,
@@ -1768,11 +1587,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00512.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         }
       ]
     },
@@ -1851,33 +1665,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 3,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 3,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         }
       ]
     },
@@ -1966,11 +1765,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00412.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00412.png"
         }
@@ -1991,12 +1785,12 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
@@ -2009,16 +1803,6 @@
             ],
             "field": []
           }
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -2042,18 +1826,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png"
         }
       ]
     },
@@ -2077,18 +1856,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         }
       ]
     },
@@ -2197,28 +1971,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -2272,18 +2036,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         }
       ]
     },
@@ -2339,11 +2098,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 3,
@@ -2967,7 +2721,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
@@ -2979,11 +2733,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
       ]
     },
@@ -3012,11 +2761,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00314.png"
         }
@@ -3042,18 +2786,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         }
       ]
     },
@@ -3108,28 +2847,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
         }
       ]
     },
@@ -3188,11 +2917,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
         }
@@ -3215,16 +2939,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00520.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
         {
           "num": 2,
@@ -3258,18 +2972,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
       ]
     },
@@ -3288,7 +2997,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png"
         },
         {
@@ -3300,11 +3009,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png"
         }
       ]
     },
@@ -3323,28 +3027,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         }
       ]
     },
@@ -3365,16 +3059,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00520.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
         {
           "num": 2,
@@ -3408,18 +3092,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         }
       ]
     },
@@ -3468,7 +3147,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         },
         {
@@ -3480,11 +3159,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         }
       ]
     },
@@ -3513,17 +3187,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png",
-          "aiIds": {
-            "svt": [
-              90251070
-            ],
-            "field": []
-          }
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png"
         }
@@ -3544,7 +3207,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
         {
@@ -3556,11 +3219,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         }
       ]
     },
@@ -3579,7 +3237,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         },
         {
@@ -3591,11 +3249,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
         }
       ]
     },
@@ -3621,11 +3274,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         },
         {
           "num": 3,
@@ -3709,23 +3357,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         },
         {
           "num": 3,
@@ -3846,11 +3484,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
         {
           "num": 3,
@@ -3981,11 +3614,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
@@ -4066,7 +3694,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
@@ -4078,11 +3706,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
       ]
     },
@@ -4136,18 +3759,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00515.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00515.png"
         }
       ]
     },
@@ -4326,11 +3944,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00803.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00803.png"
         }
@@ -4506,18 +4119,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         }
       ]
     },
@@ -4541,18 +4149,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         }
       ]
     },
@@ -4578,11 +4181,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         },
         {
           "num": 3,
@@ -4666,21 +4264,6 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
@@ -4688,6 +4271,11 @@
           "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
+        },
+        {
+          "num": 3,
+          "priority": 1,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         }
       ]
     },
@@ -4706,28 +4294,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
       ]
     },
@@ -4746,7 +4324,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
@@ -4758,11 +4336,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -4779,21 +4352,6 @@
         "buster"
       ],
       "skills": [
-        {
-          "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
-        },
         {
           "num": 1,
           "priority": 2,
@@ -4826,28 +4384,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -4871,18 +4419,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         }
       ]
     },
@@ -4901,7 +4444,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         },
         {
@@ -4913,11 +4456,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00500.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         }
       ]
     },
@@ -4936,7 +4474,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
@@ -4948,11 +4486,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -4976,18 +4509,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         }
       ]
     },
@@ -5161,18 +4689,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00609.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00609.png"
         }
       ]
     },
@@ -5191,7 +4714,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
@@ -5203,11 +4726,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         }
       ]
     },
@@ -5326,11 +4844,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         }
@@ -5356,18 +4869,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00537.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00537.png"
         }
       ]
     },
@@ -5886,18 +5394,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
         }
       ]
     },
@@ -5916,23 +5419,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
         },
         {
           "num": 3,
@@ -5993,11 +5486,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         },
         {
           "num": 3,
@@ -6086,18 +5574,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         }
       ]
     },
@@ -6126,11 +5609,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
@@ -6153,16 +5631,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
         },
         {
           "num": 2,
@@ -6191,7 +5659,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00522.png"
         },
         {
@@ -6203,11 +5671,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00522.png"
         }
       ]
     },
@@ -6231,18 +5694,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00521.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         }
       ]
     },
@@ -6266,18 +5724,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
         }
       ]
     },
@@ -6328,16 +5781,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
         {
           "num": 2,
@@ -6456,23 +5899,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         },
         {
           "num": 3,
@@ -6501,18 +5934,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
         }
       ]
     },
@@ -6536,18 +5964,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         }
       ]
     },
@@ -6566,28 +5989,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00313.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         }
       ]
     },
@@ -6613,11 +6026,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 3,
@@ -6676,18 +6084,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         }
       ]
     },
@@ -6706,23 +6109,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
         },
         {
           "num": 3,
@@ -6806,7 +6199,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
@@ -6818,11 +6211,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00315.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -7356,16 +6744,6 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00310.png"
-        },
-        {
-          "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
         },
@@ -7391,7 +6769,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
         },
         {
@@ -7403,11 +6781,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
         }
       ]
     },
@@ -7496,11 +6869,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         }
@@ -7553,16 +6921,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00520.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00522.png"
         },
         {
           "num": 2,
@@ -7626,18 +6984,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
         }
       ]
     },
@@ -7661,18 +7014,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         }
       ]
     },
@@ -7696,18 +7044,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00500.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00509.png"
         }
       ]
     },
@@ -7726,7 +7069,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
         },
         {
@@ -7738,11 +7081,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00512.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
         }
       ]
     },
@@ -7821,21 +7159,6 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
         },
@@ -7876,11 +7199,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00502.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00502.png"
         }
@@ -7908,11 +7226,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 3,
@@ -7996,7 +7309,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
@@ -8008,11 +7321,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00524.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
       ]
     },
@@ -8031,21 +7339,6 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00537.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
@@ -8053,6 +7346,11 @@
           "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
+        },
+        {
+          "num": 3,
+          "priority": 1,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00537.png"
         }
       ]
     },
@@ -8071,28 +7369,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         }
       ]
     },
@@ -8141,7 +7429,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00512.png"
         },
         {
@@ -8153,11 +7441,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00512.png"
         }
       ]
     },
@@ -8206,7 +7489,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         },
         {
@@ -8218,11 +7501,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         }
       ]
     },
@@ -8336,18 +7614,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         }
       ]
     },
@@ -8736,11 +8009,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
@@ -8826,18 +8094,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
         }
       ]
     },
@@ -8856,7 +8119,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         },
         {
@@ -8868,11 +8131,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         }
       ]
     },
@@ -8926,16 +8184,6 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00328.png"
         },
@@ -8963,16 +8211,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 2,
@@ -9071,11 +8309,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
@@ -9096,7 +8329,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         },
         {
@@ -9108,11 +8341,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         }
       ]
     },
@@ -9131,7 +8359,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
         {
@@ -9143,11 +8371,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         }
       ]
     },
@@ -9166,7 +8389,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00503.png"
         },
         {
@@ -9178,11 +8401,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00503.png"
         }
       ]
     },
@@ -9203,16 +8421,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         },
         {
           "num": 2,
@@ -9276,18 +8484,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
         }
       ]
     },
@@ -9306,7 +8509,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
         {
@@ -9318,11 +8521,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         }
       ]
     },
@@ -9341,21 +8539,6 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00537.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png"
         },
@@ -9363,6 +8546,11 @@
           "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
+        },
+        {
+          "num": 3,
+          "priority": 1,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00537.png"
         }
       ]
     },
@@ -9386,18 +8574,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00608.png"
+          "priority": 2,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
         }
       ]
     },
@@ -9536,7 +8719,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
         {
@@ -9548,11 +8731,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         }
       ]
     },
@@ -9601,7 +8779,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         },
         {
@@ -9613,11 +8791,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
         }
       ]
     },
@@ -9701,18 +8874,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00515.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00515.png"
         }
       ]
     },
@@ -9828,11 +8996,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00606.png"
         },
         {
           "num": 3,
@@ -10006,73 +9169,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
-        },
-        {
-          "num": 2,
-          "priority": 3,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
-        },
-        {
-          "num": 3,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 3,
-          "priority": 3,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 1,
-          "priority": 3,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 1,
-          "priority": 4,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 3,
-          "priority": 4,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 3,
-          "priority": 5,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 1,
-          "priority": 5,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
-        },
-        {
-          "num": 1,
           "priority": 6,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png"
+        },
+        {
+          "num": 2,
+          "priority": 3,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
+        },
+        {
+          "num": 3,
+          "priority": 5,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         }
       ]
     },
@@ -10096,18 +9204,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
         }
       ]
     },
@@ -10124,21 +9227,6 @@
         "buster"
       ],
       "skills": [
-        {
-          "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
-        },
         {
           "num": 1,
           "priority": 2,
@@ -10201,21 +9289,6 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00512.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
-        },
-        {
-          "num": 1,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00512.png"
         },
@@ -10223,6 +9296,11 @@
           "num": 2,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
+        },
+        {
+          "num": 3,
+          "priority": 1,
+          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
         }
       ]
     },
@@ -10336,18 +9414,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00703.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00703.png"
         }
       ]
     },
@@ -10576,28 +9649,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00328.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
         }
       ]
     },
@@ -10614,21 +9677,6 @@
         "buster"
       ],
       "skills": [
-        {
-          "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00506.png"
-        },
         {
           "num": 1,
           "priority": 2,
@@ -10661,28 +9709,18 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00502.png"
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00502.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
         }
       ]
     },
@@ -10706,18 +9744,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -10741,18 +9774,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
         }
       ]
     },
@@ -10769,21 +9797,6 @@
         "buster"
       ],
       "skills": [
-        {
-          "num": 1,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00316.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png"
-        },
         {
           "num": 1,
           "priority": 2,
@@ -10846,23 +9859,13 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00412.png"
         },
         {
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00609.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00412.png"
         },
         {
           "num": 3,
@@ -11076,11 +10079,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png"
         }
@@ -11106,18 +10104,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png"
         }
       ]
     },
@@ -11170,7 +10163,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
@@ -11182,11 +10175,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -11210,18 +10198,13 @@
         },
         {
           "num": 2,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         },
         {
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00524.png"
-        },
-        {
-          "num": 2,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
         }
       ]
     },
@@ -11250,11 +10233,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png"
         }
@@ -11277,16 +10255,6 @@
           "num": 1,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png"
-        },
-        {
-          "num": 2,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png"
         },
         {
           "num": 2,
@@ -11481,20 +10449,6 @@
       ]
     },
     {
-      "id": 1700100,
-      "battleName": "King Solomon",
-      "className": "grandCaster",
-      "rarity": 5,
-      "cards": [
-        "quick",
-        "arts",
-        "arts",
-        "arts",
-        "buster"
-      ],
-      "skills": []
-    },
-    {
       "id": 2300100,
       "battleName": "BB",
       "className": "moonCancer",
@@ -11519,11 +10473,6 @@
         },
         {
           "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
-        },
-        {
-          "num": 3,
           "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         }
@@ -11544,7 +10493,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         },
         {
@@ -11556,11 +10505,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00705.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png"
         }
       ]
     },
@@ -11586,11 +10530,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         },
         {
           "num": 3,
@@ -11674,7 +10613,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png"
         },
         {
@@ -11686,11 +10625,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00513.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png"
         }
       ]
     },
@@ -11716,11 +10650,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00325.png"
         },
         {
           "num": 3,
@@ -11774,7 +10703,7 @@
       "skills": [
         {
           "num": 1,
-          "priority": 1,
+          "priority": 2,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         },
         {
@@ -11786,11 +10715,6 @@
           "num": 3,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00707.png"
-        },
-        {
-          "num": 1,
-          "priority": 2,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png"
         }
       ]
     },
@@ -11816,11 +10740,6 @@
           "num": 2,
           "priority": 1,
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png"
-        },
-        {
-          "num": 3,
-          "priority": 1,
-          "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png"
         },
         {
           "num": 3,
@@ -12158,90 +11077,6 @@
           "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00314.png"
         }
       ]
-    },
-    {
-      "id": 9935400,
-      "battleName": "Tiamat",
-      "className": "beastII",
-      "rarity": 5,
-      "cards": [
-        "quick",
-        "arts",
-        "arts",
-        "buster",
-        "buster"
-      ],
-      "skills": []
-    },
-    {
-      "id": 9935500,
-      "battleName": "Demon King Goetia",
-      "className": "beastI",
-      "rarity": 5,
-      "cards": [
-        "quick",
-        "quick",
-        "quick",
-        "quick",
-        "quick"
-      ],
-      "skills": []
-    },
-    {
-      "id": 9935530,
-      "battleName": "King Solomon",
-      "className": "caster",
-      "rarity": 5,
-      "cards": [
-        "quick",
-        "arts",
-        "arts",
-        "buster",
-        "buster"
-      ],
-      "skills": []
-    },
-    {
-      "id": 9939130,
-      "battleName": "Heaven's Hole",
-      "className": "beastIIIR",
-      "rarity": 5,
-      "cards": [
-        "quick",
-        "arts",
-        "arts",
-        "buster",
-        "buster"
-      ],
-      "skills": []
-    },
-    {
-      "id": 9941730,
-      "battleName": "Kama/Mara",
-      "className": "beastIIIL",
-      "rarity": 5,
-      "cards": [
-        "quick",
-        "quick",
-        "arts",
-        "buster",
-        "buster"
-      ],
-      "skills": []
-    },
-    {
-      "id": 9943610,
-      "battleName": "Beast IV",
-      "className": "beastIV",
-      "rarity": 5,
-      "cards": [
-        "weak",
-        "weak",
-        "weak",
-        "weak",
-        "weak"
-      ],
-      "skills": []
     }
   ]
 }

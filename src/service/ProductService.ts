@@ -6,7 +6,7 @@ const api_key = process.env.VUE_APP_REST_API_KEY
 export default class ProductService {
 
     static async getProducts(): Promise<any> {
-        return await fetch('data/nice.json').then(res => res.json()).then(d => d.data);
+        return await fetch('data/nice_priority.json').then(res => res.json()).then(d => d.data);
     }
 
     static async getAPI(): Promise<any> {

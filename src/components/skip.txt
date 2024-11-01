@@ -1,0 +1,140 @@
+populateCards
+start
+handleGames (count: 1)
+    generate id and it's 3 skills
+    this card's answer is id
+    this card's data is [3 skills]
+    easyData.push(10 servant ids)
+press select servant
+select a servant from table
+    if card id is 0
+    datatableCheck(0)
+        index = card.answer
+        if selected == index.id
+            success:
+            score++
+            combo++
+        if not
+            global fail = true
+            combo = 1
+        push logs
+        hide card
+        increment
+            if card skipped? good
+            if not
+                if card failed?
+                write logs
+            count++
+            card inactive and completed
+            clear filters selecteds temp 
+------------clear dialogueData ???
+
+handleGames (count: 2)
+    get id and name
+    fill temp with skill icons until 10
+    shuffle it
+press skills
+checkAnswers
+    push icons to selected until full
+    sort both
+    if equal 
+        success:
+        score++
+        combo++
+    if not
+        global fail = true
+        combo = 1
+    push logs
+    hide card
+    increment
+
+handleGames (count: 3)
+    get id
+    answer = id
+    data = id's name
+    temp = [cards]
+checkAnswers
+    push cards to selected until 5
+    sort both
+    if equal 
+        success:
+        score++
+        combo++
+    if not
+        global fail = true
+        combo = 1
+    push logs
+    hide card
+    increment
+
+handleGames (count: 4)
+    generate id and it's 3 skills
+    this card's answer is id
+    this card's data is [3 skills]
+    table data is data
+press select servant
+select a servant from table
+    if card id is 3
+    datatableCheck(3)
+        index = card.answer
+        if selected == index.id
+            success:
+            score++
+            combo++
+        if not
+            global fail = true
+            combo = 1
+        push logs
+        hide card
+        increment
+
+handleGames (count: 5)
+    empty temp
+    get id
+    card answer = id
+    card data = name
+    temp = 3+27 skills
+    shuffle temp
+checkAnswers
+    push skills to selected until 3
+    sort both
+    if equal 
+        success:
+        score++
+        combo++
+    if not
+        global fail = true
+        combo = 1
+    push logs
+    hide card
+    increment
+
+
+handleGames (count: 6)
+    sort number of every icon 
+    card answer = id
+    card data = random id's skill
+    sixthGameCount: count how many times this skill repeats in nice data
+    push to temp every id that has this skill
+printAns
+    if sixthGameCount > 5 make length 5
+    else it's less than 5 or 5
+    close the game when it reaches length
+    for every right answer combo++ score ++
+    wrong answer closes the game
+    combo 1
+    hide card
+    push logs
+    increment
+
+increment when count > 6
+    if fail and score > 0
+        check username and highscore
+            updateUser
+        if new player
+            createUser
+        get leaderboards
+        reset
+    if not fail
+        reset
+        keep the game count combo and score

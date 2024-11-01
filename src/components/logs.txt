@@ -1,0 +1,26 @@
+Jan 13 10:52:15 Request leaderboard data.
+
+Jan 13 10:52:15 Get and remember username.
+
+Jan 13 10:52:23 Generated game 1 ({{this.count}}) showing three skill icons ({item.data}) of servant 255 Paris (item.answer). Received 
+                selected servant 189 Osakabehime. Combo back to 1, score 0, highest combo stays at 1. Game failed.
+
+Jan 13 10:52:26 Generated game 2 ({{this.count}}) showing servant name Daikokuten. Expecting ({item.data} icons). Received 
+                {selectedProduct} icons. Combo x2, score 500, copy value of combo into the highest combo (2).
+
+Jan 13 10:52:34 Generated game 3 ({{this.count}}) showing servant name Saber Lily. Expecting AABBQ. Received 
+                ABBQQ. Combo back to 1, score 500, highest combo stays at 2. Game failed.
+
+Jan 13 10:52:23 Generated game 4 ({{this.count}}) showing three skill icons ({item.data}) of servant 148 Jaguar Warrior (item.answer).
+                Received selected servant 148 Jaguar Warrior. Combo x4, score 1500, copy value of combo into the highest combo (4).
+
+Jan 13 10:52:26 Generated game 5 ({{this.count}}) showing servant name Martha Santa. Expecting ({item.data} icons). Pressed SKIP
+                button. Combo back to 1, score 1500, highest combo stays at 4. Game failed.
+
+Jan 13 10:52:23 Generated game 6 ({{this.count}}) showing /skill_00512.png.  Received servants 255, 67, 3, 2. 
+                //верные ответы помечать зеленым, последний, т.е. неверный - красным
+                Combo back to 1, score 1500, highest combo stays at 4. Game failed.
+
+Jan 13 10:53:03 Since one or more games failed check leaderboard data. Since score > 0 check whether username is on the table. Check 
+                whether the score is bigger than highscore on the leaderboards. Update username. -- добавить в инкременте,
+                когда игра больше шести
